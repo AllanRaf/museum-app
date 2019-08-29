@@ -1,0 +1,63 @@
+body {
+
+    background-color: beige;
+    text-align: center;
+
+}
+
+p{
+
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, sans-serif;
+    
+}
+
+.centreImg {
+
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.comment{
+
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 50%;
+    min-width: 15rem
+
+}
+
+form {
+    
+    margin: 2rem auto;
+    width: 50%;
+    min-width: 15rem;
+    padding: 1rem;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.formSection {
+
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+label {
+
+    display: inline-block;
+    width: 80%;
+
+}
+
+input, textarea {
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    min-height: 2rem;
+    font-size: 1.2rem;
+}
